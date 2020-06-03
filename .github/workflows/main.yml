@@ -13,7 +13,7 @@ jobs:
         AUTHOR_EMAIL: john@example.com
         AUTHOR_NAME: john
         EXECUTE: "true"
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.SUPER_SECRET }}
         LOG_LEVEL: debug
       with:
         args: -u --packageFile package.json --loglevel verbose
